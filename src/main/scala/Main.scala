@@ -3,7 +3,7 @@ import java.nio.file.Files
 import java.nio.file.Paths
 import scala.util.Using
 
-import plouandre.{Mower, Parser}
+import tondeuse.{Mower, Parser}
 import scala.io.Source
 
 object Main {

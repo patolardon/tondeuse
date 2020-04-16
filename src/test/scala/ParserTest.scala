@@ -1,5 +1,5 @@
 import org.scalatest.FlatSpec
-import plouandre.{Garden, North, Parser, Position}
+import tondeuse.{Garden, North, Parser, Position}
 
 class ParserTest extends FlatSpec {
   "Parse File" should "return a tuple of the garden and the list of tuple (position, movements)" in {

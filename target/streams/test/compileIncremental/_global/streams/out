@@ -1,3 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mThe plouandre.Position has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(isInGarden,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) plouandre.Position: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) plouandre.Position.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of MowerTests. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of ParserTest. This dependency is not being considered for invalidation.[0m
 [0m[[0m[0mdebug[0m] [0m[0mThe plouandre.North has the following regular definitions changed:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UsedName(associatedString,[Default]).[0m
 [0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
@@ -6,6 +14,21 @@
 [0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) plouandre.North.[0m
 [0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of MowerTests. This dependency is not being considered for invalidation.[0m
 [0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of ParserTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe plouandre.Position$ has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(isInGarden,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) plouandre.Position$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) plouandre.Position$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of MowerTests. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of ParserTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe plouandre.West$ has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(associatedString,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) plouandre.West$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) plouandre.West$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of MowerTests. This dependency is not being considered for invalidation.[0m
 [0m[[0m[0mdebug[0m] [0m[0mThe plouandre.North$ has the following regular definitions changed:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UsedName(associatedString,[Default]).[0m
 [0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
@@ -22,13 +45,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) plouandre.Orientation.[0m
 [0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of MowerTests. This dependency is not being considered for invalidation.[0m
 [0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of ParserTest. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe plouandre.West$ has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(associatedString,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) plouandre.West$: Set(); now invalidating by inheritance (internally).[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) plouandre.West$.[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of MowerTests. This dependency is not being considered for invalidation.[0m
 [0m[[0m[0mdebug[0m] [0m[0mThe plouandre.West has the following regular definitions changed:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UsedName(associatedString,[Default]).[0m
 [0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
@@ -36,4 +52,38 @@
 [0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) plouandre.West.[0m
 [0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of MowerTests. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/home/pierrel/workspace/tondeuse/src/test/scala/MowerTests.scala, /home/pierrel/workspace/tondeuse/src/test/scala/ParserTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/pierre/workspace/tondeuse/src/test/scala/MowerTests.scala, /home/pierre/workspace/tondeuse/src/test/scala/ParserTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/home/pierrel/workspace/tondeuse/target/scala-2.13/test-classes/MowerTests.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/test-classes/ParserTest.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set(NamesChange(plouandre.Position,ModifiedNames(changes = UsedName(isInGarden,[Default]))), NamesChange(plouandre.North,ModifiedNames(changes = UsedName(associatedString,[Default]))), NamesChange(plouandre.Position$,ModifiedNames(changes = UsedName(isInGarden,[Default]))), NamesChange(plouandre.West$,ModifiedNames(changes = UsedName(associatedString,[Default]))), NamesChange(plouandre.North$,ModifiedNames(changes = UsedName(associatedString,[Default]))), NamesChange(plouandre.Orientation,ModifiedNames(changes = UsedName(associatedString,[Default]))), NamesChange(plouandre.West,ModifiedNames(changes = UsedName(associatedString,[Default]))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(/home/pierre/workspace/tondeuse/target/scala-2.13/classes, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes, /home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar, /home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.jar, /home/pierrel/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.jar, /home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar, /home/pierrel/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.jar, /home/pierrel/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar, /home/pierrel/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar, /home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar, /home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.jar, /home/pierrel/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(MowerTests, ParserTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/home/pierrel/workspace/tondeuse/src/test/scala/MowerTests.scala, /home/pierrel/workspace/tondeuse/src/test/scala/ParserTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(/home/pierrel/workspace/tondeuse/src/test/scala/MowerTests.scala, /home/pierrel/workspace/tondeuse/src/test/scala/ParserTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(MowerTests, ParserTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/pierre/workspace/tondeuse/src/test/scala/MowerTests.scala, /home/pierre/workspace/tondeuse/src/test/scala/ParserTest.scala, /home/pierrel/workspace/tondeuse/src/test/scala/MowerTests.scala, /home/pierrel/workspace/tondeuse/src/test/scala/ParserTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: MowerTests, ParserTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /home/pierre/workspace/tondeuse/target/scala-2.13/test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.3.1:compile for Scala 2.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.3.1:compile for Scala 2.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3c2ec649 for Scala compiler version 2.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/pierre/workspace/tondeuse/target/scala-2.13/test-classes:/home/pierre/workspace/tondeuse/target/scala-2.13/classes:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.jar:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.312198318 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
