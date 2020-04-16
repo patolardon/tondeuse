@@ -1,4 +1,4 @@
-package plouandre
+package tondeuse
 
 object Parser {
   def parseFile(inputFile: List[String]): (String, List[(String, String)]) = {

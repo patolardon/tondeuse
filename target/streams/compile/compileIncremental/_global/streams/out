@@ -1,106 +1,85 @@
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Parser.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Orientation.scala, /home/pierrel/workspace/tondeuse/src/main/scala/Main.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Position.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Mower.scala, /home/pierrel/workspace/tondeuse/src/main/scala/Main.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Orientation.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Garden.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Parser.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/pierre/workspace/tondeuse/src/main/scala/plouandre/Garden.scala, /home/pierre/workspace/tondeuse/src/main/scala/plouandre/Parser.scala, /home/pierre/workspace/tondeuse/src/main/scala/Main.scala, /home/pierre/workspace/tondeuse/src/main/scala/plouandre/Mower.scala, /home/pierre/workspace/tondeuse/src/main/scala/plouandre/Orientation.scala, /home/pierre/workspace/tondeuse/src/main/scala/plouandre/Position.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/Orientation.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/Position$.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/Main.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/Parser$.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/Garden.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/Garden$.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/East$.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/West.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/OrientationParser$.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/East.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/Position.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/Mower$.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/Parser.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/OrientationParser.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/South.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/South$.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/West$.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/Mower.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/North$.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/Main$.class, /home/pierrel/workspace/tondeuse/target/scala-2.13/classes/plouandre/North.class)[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(plouandre.North, plouandre.South, plouandre.Parser, plouandre.East, plouandre.OrientationParser, Main, plouandre.Orientation, plouandre.West)[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar, /home/pierrel/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(plouandre.Position, plouandre.North, plouandre.Garden, plouandre.South, plouandre.Parser, plouandre.East, plouandre.Mower, plouandre.OrientationParser, Main, plouandre.Orientation, plouandre.West)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Position.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Mower.scala, /home/pierrel/workspace/tondeuse/src/main/scala/Main.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Orientation.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Garden.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Parser.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(/home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Position.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Mower.scala, /home/pierrel/workspace/tondeuse/src/main/scala/Main.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Orientation.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Garden.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Parser.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(plouandre.North, plouandre.South, plouandre.Parser, plouandre.East, plouandre.OrientationParser, Main, plouandre.Orientation, plouandre.West)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Parser.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Orientation.scala, /home/pierrel/workspace/tondeuse/src/main/scala/Main.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: plouandre.North, plouandre.South, plouandre.Parser, plouandre.East, plouandre.OrientationParser, Main, plouandre.Orientation, plouandre.West[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(plouandre.Position, plouandre.North, plouandre.Garden, plouandre.South, plouandre.Parser, plouandre.East, plouandre.Mower, plouandre.OrientationParser, Main, plouandre.Orientation, plouandre.West)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Position.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Mower.scala, /home/pierre/workspace/tondeuse/src/main/scala/plouandre/Garden.scala, /home/pierrel/workspace/tondeuse/src/main/scala/Main.scala, /home/pierre/workspace/tondeuse/src/main/scala/plouandre/Parser.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Orientation.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Garden.scala, /home/pierre/workspace/tondeuse/src/main/scala/Main.scala, /home/pierre/workspace/tondeuse/src/main/scala/plouandre/Mower.scala, /home/pierre/workspace/tondeuse/src/main/scala/plouandre/Orientation.scala, /home/pierre/workspace/tondeuse/src/main/scala/plouandre/Position.scala, /home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Parser.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: plouandre.Position, plouandre.North, plouandre.Garden, plouandre.South, plouandre.Parser, plouandre.East, plouandre.Mower, plouandre.OrientationParser, Main, plouandre.Orientation, plouandre.West[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding plouandre.West by plouandre.Orientation[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 3 Scala sources to /home/pierrel/workspace/tondeuse/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 6 Scala sources to /home/pierre/workspace/tondeuse/target/scala-2.13/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.3.1:compile for Scala 2.13.1[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.13' for Scala 2.13.1. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.13.1.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4f023b40[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.1/compiler-interface-1.3.1.jar:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.3.1/compiler-bridge_2.13-1.3.1-sources.jar:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/Command.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/CompilerInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/ConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/InteractiveConsoleFactory.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/InteractiveConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/JarUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_97289749/xsbt/ScaladocInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 18.433s.[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.3.1:compile for Scala 2.13.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 26f351b3 for Scala compiler version 2.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 4edd70fb for Scala compiler version 2.13.1[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/pierrel/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/pierre/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/home/pierrel/workspace/tondeuse/target/scala-2.13/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 8.726806215 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/pierre/workspace/tondeuse/target/scala-2.13/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 23.595340254 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from plouandre.North...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: plouandre.North[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(plouandre.North)[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of plouandre.Mower. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(plouandre.North,ModifiedNames(changes = UsedName(associatedString,[Default]))) invalidates 1 classes due to The plouandre.North has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(associatedString,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(plouandre.North)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from plouandre.East...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: plouandre.East[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(plouandre.East)[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of plouandre.Mower. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(plouandre.East,ModifiedNames(changes = UsedName(associatedString,[Default]))) invalidates 1 classes due to The plouandre.East has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(associatedString,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(plouandre.East)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from plouandre.South...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: plouandre.South[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(plouandre.South)[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of plouandre.Mower. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(plouandre.South,ModifiedNames(changes = UsedName(associatedString,[Default]))) invalidates 1 classes due to The plouandre.South has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(associatedString,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(plouandre.South)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from plouandre.Orientation...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: plouandre.Orientation[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding plouandre.East by plouandre.Orientation[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding plouandre.South by plouandre.Orientation[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding plouandre.North by plouandre.Orientation[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding plouandre.West by plouandre.Orientation[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(plouandre.North, plouandre.South, plouandre.East, plouandre.Orientation, plouandre.West)[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of plouandre.Mower. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of plouandre.Mower. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of plouandre.Mower. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of plouandre.Parser: Set(UsedName(associatedString,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of plouandre.Mower. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of plouandre.Position. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of plouandre.Mower. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(plouandre.Orientation,ModifiedNames(changes = UsedName(associatedString,[Default]))) invalidates 6 classes due to The plouandre.Orientation has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(associatedString,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(plouandre.North, plouandre.South, plouandre.East, plouandre.Orientation, plouandre.West)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(plouandre.Parser)[0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from plouandre.OrientationParser...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: plouandre.OrientationParser[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(plouandre.OrientationParser)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from plouandre.Position...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: plouandre.Position[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(plouandre.Position)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of plouandre.Mower: Set(UsedName(isInGarden,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Main. This dependency is not being considered for invalidation.[0m
 [0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of plouandre.Parser. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(plouandre.OrientationParser,ModifiedNames(changes = UsedName(unParse,[Default]))) invalidates 1 classes due to The plouandre.OrientationParser has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(unParse,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(plouandre.OrientationParser)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(plouandre.Position,ModifiedNames(changes = UsedName(isInGarden,[Default]))) invalidates 2 classes due to The plouandre.Position has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(isInGarden,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(plouandre.Position)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from plouandre.West...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: plouandre.West[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(plouandre.West)[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of plouandre.Mower. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(plouandre.West,ModifiedNames(changes = UsedName(associatedString,[Default]))) invalidates 1 classes due to The plouandre.West has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(associatedString,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(plouandre.West)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(plouandre.Mower)[0m
 [0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set(plouandre.Parser)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: plouandre.Parser[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding Main by plouandre.Parser[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set(plouandre.Mower)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: plouandre.Mower[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Main by plouandre.Mower[0m
 [0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m

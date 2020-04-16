@@ -1,5 +1,5 @@
 import org.scalatest.FlatSpec
-import plouandre.{Garden, Mower, North, Position, West}
+import tondeuse.{Garden, Mower, North, Position, West}
 
 class MowerTests extends FlatSpec {
   "A turn" should "return a mower with a new orientation of position if it is G or D" in {

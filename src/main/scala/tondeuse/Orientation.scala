@@ -1,4 +1,4 @@
-package plouandre
+package tondeuse
 
 sealed trait Orientation extends Product with Serializable {
   val associatedString: String
