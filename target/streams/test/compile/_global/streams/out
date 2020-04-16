@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/home/pierrel/workspace/tondeuse/src/test/scala/ParserTest.scala:23:67: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Char('N')[0m
+[0m[[0m[31merror[0m] [0m[0m required: plouandre.Orientation[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(Parser.parsePosition(inputPosition) === Position(1, 1, 'N'))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/pierrel/workspace/tondeuse/src/test/scala/ParserTest.scala:33:40: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Char('N')[0m
+[0m[[0m[31merror[0m] [0m[0m required: plouandre.Orientation[0m
+[0m[[0m[31merror[0m] [0m[0m    val inputPosition = Position(1, 1, 'N')[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

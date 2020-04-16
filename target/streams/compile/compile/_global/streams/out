@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Mower.scala:14:108: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Mower.this.positionInGarden.orientation.type (with underlying type plouandre.Orientation)[0m
+[0m[[0m[31merror[0m] [0m[0m required: Product with plouandre.Orientation with java.io.Serializable[0m
+[0m[[0m[31merror[0m] [0m[0m      case 'G' => Position(positionInGarden.abscisse, positionInGarden.ordonnee, turnLeft(positionInGarden.orientation))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/pierrel/workspace/tondeuse/src/main/scala/plouandre/Mower.scala:15:109: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Mower.this.positionInGarden.orientation.type (with underlying type plouandre.Orientation)[0m
+[0m[[0m[31merror[0m] [0m[0m required: Product with plouandre.Orientation with java.io.Serializable[0m
+[0m[[0m[31merror[0m] [0m[0m      case 'D' => Position(positionInGarden.abscisse, positionInGarden.ordonnee, turnRight(positionInGarden.orientation))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

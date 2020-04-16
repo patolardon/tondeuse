@@ -1,0 +1,13 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mParserTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mParse File[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a tuple of the garden and the list of tuple (position, movements)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mParse Garden[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an error as right if there is and odd number of tuple (position, movements)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mParse Garden[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a garden as right if there is and even number of tuple (position, movements)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mParse Position[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a position if it is of format Int Int Char (Char in N O E S)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mParse Position[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an error if it is not of format Int Int Char (Char in N O E S)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUnparse Position[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an string a position from a position[0m[0m
