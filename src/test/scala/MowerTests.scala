@@ -1,12 +1,14 @@
 import org.scalatest.FlatSpec
-import tondeuse.{Garden, Mower, North, Position, West}
+import tondeuse.Parser.{North, West}
+import tondeuse.model.{Command, Garden, Mower, Position}
+import tondeuse.model
 
 class MowerTests extends FlatSpec {
   "A turn" should "return a mower with a new orientation of position if it is G or D" in {
     val position = Position(1, 2, North)
     val garden = Garden(5, 5)
     val mower = Mower(position, garden)
-    assert(mower.turn('G').position === Position(1, 2, West))
+    assert(mower.turn('G').position === model.Position(1, 2, West))
     intercept[IllegalArgumentException] {
       mower.turn('F')
     }
@@ -14,14 +16,14 @@ class MowerTests extends FlatSpec {
   }
 
   "An advance" should "increase abscisse or ordonnee according to orientation" in {
-    val position = Position(1, 2, North)
+    val position = model.Position(1, 2, North)
     val garden = Garden(5, 5)
     val mower = Mower(position, garden)
-    assert(mower.advance.position === Position(1, 3, North))
+    assert(mower.advance.position === model.Position(1, 3, North))
   }
 
   "An advance" should "return Illegal Argument exception if going out of the garden" in {
-    val position = Position(1, 5, North)
+    val position = model.Position(1, 5, North)
     val garden = Garden(5, 5)
     val mower = Mower(position, garden)
     intercept[IllegalArgumentException] {
@@ -30,12 +32,12 @@ class MowerTests extends FlatSpec {
   }
 
   "Run" should "Run all command in a string of command" in {
-    val position = Position(1, 1, North)
+    val position = model.Position(1, 1, North)
     val garden = Garden(5, 5)
     val mower = Mower(position, garden)
-    assert(mower.run("AAG").position === Position(1, 3, West))
+    assert(mower.run(Command("AAG")).position === model.Position(1, 3, West))
     intercept[IllegalArgumentException] {
-      mower.run("AAGF")
+      mower.run(Command("AAGF"))
     }
   }
 

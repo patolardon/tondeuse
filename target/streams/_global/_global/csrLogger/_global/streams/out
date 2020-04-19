@@ -1,0 +1,6 @@
+[debug] downloaded https://repo1.maven.org/maven2/com/lightbend/kafka-streams-scala_2.13/0.2.1/kafka-streams-scala_2.13-0.2.1.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/typelevel/cats-core_2.13/1.0.1/cats-core_2.13-1.0.1.pom
+[debug] downloaded https://repo1.maven.org/maven2/com/goyeau/kafka-streams-circe_2.13/0.5/kafka-streams-circe_2.13-0.5.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/typelevel/cats-core_2.13/1.0.1/cats-core_2.13-1.0.1.pom.sha1
+[debug] downloaded https://repo1.maven.org/maven2/com/lightbend/kafka-streams-scala_2.13/0.2.1/kafka-streams-scala_2.13-0.2.1.pom.sha1
+[debug] downloaded https://repo1.maven.org/maven2/com/goyeau/kafka-streams-circe_2.13/0.5/kafka-streams-circe_2.13-0.5.pom.sha1

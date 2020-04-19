@@ -1,11 +1,13 @@
 import org.scalatest.FlatSpec
-import tondeuse.{Garden, North, Parser, Position}
+import tondeuse.Parser.{North, Parser}
+import tondeuse.model.{Garden, Position}
+import tondeuse.model
 
 class ParserTest extends FlatSpec {
-  "Parse File" should "return a tuple of the garden and the list of tuple (position, movements)" in {
+  "Parse File" should "return a tuple of the garden and a tuple (position, movements)" in {
     val inputFile = List("5 5", "1 2 N", "AAA")
     val fileParsed = Parser.parseFile(inputFile)
-    assert(fileParsed === ("5 5", List(("1 2 N", "AAA"))))
+    assert(fileParsed === ("5 5", ("1 2 N", "AAA")))
 
   }
   "Parse Garden" should "return an error as right if there is and odd number of tuple (position, movements)" in {
@@ -30,7 +32,7 @@ class ParserTest extends FlatSpec {
     }
   }
   "Unparse Position" should "return an string a position from a position" in {
-    val inputPosition = Position(1, 1, North)
+    val inputPosition = model.Position(1, 1, North)
     assert(Parser.unparsePosition(inputPosition) === "1 1 N")
   }
 }

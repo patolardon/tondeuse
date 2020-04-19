@@ -1,6 +1,6 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mParserTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mParse File[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return a tuple of the garden and the list of tuple (position, movements)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a tuple of the garden and a tuple (position, movements)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mParse Garden[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return an error as right if there is and odd number of tuple (position, movements)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mParse Garden[0m[0m
