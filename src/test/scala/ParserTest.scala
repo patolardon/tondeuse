@@ -1,6 +1,6 @@
 import org.scalatest.FlatSpec
 import tondeuse.Parser.{North, Parser}
-import tondeuse.model.{Garden, Position}
+import tondeuse.model.{Command, Garden, Position}
 import tondeuse.model
 
 class ParserTest extends FlatSpec {
@@ -34,5 +34,20 @@ class ParserTest extends FlatSpec {
   "Unparse Position" should "return an string a position from a position" in {
     val inputPosition = model.Position(1, 1, North)
     assert(Parser.unparsePosition(inputPosition) === "1 1 N")
+  }
+
+  "Parse Command" should "return a command if the command composed of A, D or G" in {
+    val inputCommand = "AAG"
+    assert(Parser.parseCommand(inputCommand) === Command("AAG"))
+  }
+
+  "Parse Command" should "return a command comprised only of A, D or G even if it has other commands" in {
+    val inputCommand = "AAGF"
+    assert(Parser.parseCommand(inputCommand) === Command("AAG"))
+  }
+
+  "Parse Command" should "return an empty command if it has no A, D or G" in {
+    val inputCommand = "HJF"
+    assert(Parser.parseCommand(inputCommand) === Command(""))
   }
 }

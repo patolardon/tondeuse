@@ -57,14 +57,7 @@ object Main extends App {
     val garden: Garden = Parser.parseGarden(input._1)
     val movements = input._2
     val position: Position = Parser.parsePosition(movements._1)
-    val commandInput: Either[IllegalArgumentException, Command] = Try(Command(movements._2)).map(Right(_)).getOrElse(Left(new IllegalArgumentException))
-    val commands: Command = commandInput match {
-      case Right(value) => value
-      case Left(_) => {
-        logger.info("got unexpected commands, removing unreadable ones")
-        Command(movements._2.filter(x => List('A', 'D', 'G').contains(x)))
-      }
-    }
+    val commands = Parser.parseCommand(movements._2)
     val maTondeuse = Mower(position, garden)
     Parser.unparsePosition(maTondeuse.run(commands).position)
   }

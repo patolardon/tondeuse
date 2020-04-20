@@ -19,6 +19,7 @@ class MowerTests extends FlatSpec {
     val position = model.Position(1, 2, North)
     val garden = Garden(5, 5)
     val mower = Mower(position, garden)
+    assert(mower.advance.isRight)
     assert(mower.advance.getOrElse(mower).position === model.Position(1, 3, North))
   }
 
@@ -26,13 +27,8 @@ class MowerTests extends FlatSpec {
     val position = model.Position(1, 5, North)
     val garden = Garden(5, 5)
     val mower = Mower(position, garden)
-    intercept[IllegalArgumentException] {
-      mower.advance match {
-        case Right(value) => value
-        case Left(error) => throw error
-      }
+    assert(mower.advance.isLeft)
     }
-  }
 
   "Run" should "Run all command in a string of command" in {
     val position = model.Position(1, 1, North)

@@ -11,3 +11,9 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return an error if it is not of format Int Int Char (Char in N O E S)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mUnparse Position[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return an string a position from a position[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mParse Command[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a command if the command composed of A, D or G[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mParse Command[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a command comprised only of A, D or G even if it has other commands[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mParse Command[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an empty command if it has no A, D or G[0m[0m
