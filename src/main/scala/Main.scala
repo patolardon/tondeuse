@@ -11,14 +11,15 @@ import org.apache.kafka.streams.scala.ImplicitConversions._
 import org.apache.kafka.streams.scala.Serdes._
 import tondeuse.Parser.Parser
 import tondeuse.model.{Command, Garden, Mower, Position}
-//import org.slf4j.Logger
-//import org.slf4j.LoggerFactory
+
+import scala.util.Try
+
 import com.typesafe.scalalogging.Logger
 
 object Main extends App {
+  val logger = Logger("Main")
 
   // create config
- // val logger: Logger = LoggerFactory.getLogger(this.getClass)
 
   val config: Properties = {
     val properties = new Properties()
@@ -56,7 +57,14 @@ object Main extends App {
     val garden: Garden = Parser.parseGarden(input._1)
     val movements = input._2
     val position: Position = Parser.parsePosition(movements._1)
-    val commands: Command = Command(movements._2)
+    val commandInput: Either[IllegalArgumentException, Command] = Try(Command(movements._2)).map(Right(_)).getOrElse(Left(new IllegalArgumentException))
+    val commands: Command = commandInput match {
+      case Right(value) => value
+      case Left(_) => {
+        logger.info("got unexpected commands, removing unreadable ones")
+        Command(movements._2.filter(x => List('A', 'D', 'G').contains(x)))
+      }
+    }
     val maTondeuse = Mower(position, garden)
     Parser.unparsePosition(maTondeuse.run(commands).position)
   }
