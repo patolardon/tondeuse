@@ -5,7 +5,7 @@ import tondeuse.model
 
 class ParserTest extends FlatSpec {
   "Parse File" should "return a tuple of the garden and a tuple (position, movements)" in {
-    val inputFile = List("5 5", "1 2 N", "AAA")
+    val inputFile = List("AAA", "1 2 N", "5 5")
     val fileParsed = Parser.parseFile(inputFile)
     assert(fileParsed === ("5 5", ("1 2 N", "AAA")))
 

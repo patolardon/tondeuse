@@ -19,7 +19,7 @@ class MowerTests extends FlatSpec {
     val position = model.Position(1, 2, North)
     val garden = Garden(5, 5)
     val mower = Mower(position, garden)
-    assert(mower.advance.position === model.Position(1, 3, North))
+    assert(mower.advance.getOrElse(mower).position === model.Position(1, 3, North))
   }
 
   "An advance" should "return Illegal Argument exception if going out of the garden" in {
@@ -27,7 +27,10 @@ class MowerTests extends FlatSpec {
     val garden = Garden(5, 5)
     val mower = Mower(position, garden)
     intercept[IllegalArgumentException] {
-      mower.advance
+      mower.advance match {
+        case Right(value) => value
+        case Left(error) => throw error
+      }
     }
   }
 

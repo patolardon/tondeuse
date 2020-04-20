@@ -5,9 +5,9 @@ import tondeuse.model.{Garden, Position}
 
 object Parser {
   def parseFile(inputFile: List[String]): (String, (String, String)) = {
-    val sizeGarden = inputFile(0)
+    val movements = inputFile.head
     val initialPositions = inputFile(1)
-    val movements = inputFile(2)
+    val sizeGarden = inputFile(2)
     (sizeGarden, (initialPositions, movements))
   }
 
